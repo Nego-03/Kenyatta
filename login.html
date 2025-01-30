@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Here!</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<marquee behavior="" direction=""><h1>Welcome To Kenyatta Hospital</h1></marquee>
+
+<!---Navbar--->
+
+<nav class="navbar bg-danger justify-content-end navbar-expand-lg">
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="home.html" class="nav-link text-light">Home</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="about.html" class="nav-link text-light">About</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="profile.html" class="nav-link text-light">Profile</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="Register.html" class="nav-link text-light">Register</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="login.html" class="nav-link text-light">Login</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="services.html" class="nav-link text-light">Services</a>
+        </li>
+
+        <li class="nav-item me-5">
+            <form action="" class="d-flex">
+                <input type="search" placeholder="Search" class="form-control">
+                <button class="btn btn-outline-warning ms-3">Search</button>
+            </form>
+        </li>
+
+
+
+
+
+    </ul>
+
+</nav>
+
+<!---End of navbar--->
+
+<h1 class="text-center">LOGIN</h1>
+
+<form action="" class="p-5">
+
+    <div class="row mb-3">
+        <div class="col">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" required="required" class="form-control">
+        </div>
+
+        <div class="col">
+            <label for="pwd" class="form-label">Password</label>
+            <input type="password" id="pwd" required="required" class="form-control">
+        </div>
+
+
+    </div>
+
+    <label for="add" class="form-label">Address</label>
+    <input type="text" id="add" placeholder="1234 Main st" required="required" class="form-control">
+
+    <label for="add2" class="form-label mt-3">Address 2</label>
+    <input type="text" id="add2" placeholder="Apartment,studio, or floor"class="form-control">
+
+    <div class="row mb-3 mt-3">
+        <div class="col">
+            <label for="city" class="form-label">City</label>
+            <input type="text" required="required" id="city" class="form-control">
+        </div>
+
+        <div class="col">
+            <label for="state" class="form-label">State</label>
+            <select name="" id="state" class="form-control">
+                <option value="" disabled="disabled">Choose...</option>
+                <option value="msa">Mombasa</option>
+                <option value="Nai">Nairobi</option>
+                <option value="Eld">Eldoret</option>
+            </select>
+
+        </div>
+
+        <div class="col">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" id="zip" required="required" class="form-control">
+
+        </div>
+
+    </div>
+    <input type="checkbox" id="chk" required="required">
+    <label for="chk" class="form-label">Check me out</label><br>
+
+    <button type="submit" class="btn btn-primary">Sign in</button>
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
